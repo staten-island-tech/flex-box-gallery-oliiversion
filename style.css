@@ -5,14 +5,25 @@ body,
   margin: 0;
   box-sizing: border-box;
   font-size: 62.5%; /* nomrally 100% is 16 px, want size to be 10 px which is 62.5% */
+  background-color: rgb(179, 215, 216);
+  font-style: "Lato";
 }
-.parent {
+.header {
+}
+.default {
   display: flex;
   font-size: 3rem;
-  border: aqua solid 5px;
+  border: rgb(9, 100, 39) solid 5px;
+  background-color: rgb(157, 240, 161);
+  margin-bottom: 2rem;
+  margin-left: 1rem;
+  margin: 1rem;
   flex-direction: row;
+  border-width: 5px;
   text-align: center;
   justify-content: center;
+  justify-content: space-between 1rem;
+  box-shadow: rgb(47, 99, 4);
 }
 
 .child {
