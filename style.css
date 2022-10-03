@@ -9,6 +9,7 @@ body,
   font-style: "Lato";
 }
 .header {
+  font-size: 200px;
 }
 .default {
   display: flex;
@@ -16,7 +17,6 @@ body,
   border: rgb(9, 100, 39) solid 5px;
   background-color: rgb(157, 240, 161);
   margin-bottom: 2rem;
-  margin-left: 1rem;
   margin: 1rem;
   flex-direction: row;
   border-width: 5px;
@@ -24,6 +24,11 @@ body,
   justify-content: center;
   justify-content: space-between 1rem;
   box-shadow: rgb(47, 99, 4);
+}
+
+.uraraka {
+  margin-top: 3rem;
+  block-size: 200px;
 }
 
 .child {
