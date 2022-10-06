@@ -4,44 +4,52 @@ body,
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-size: 62.5%; /* nomrally 100% is 16 px, want size to be 10 px which is 62.5% */
-  background-color: rgb(247, 161, 211);
+  font-size: 62.5%; /* normally 100% is 16 px, want size to be 10 px which is 62.5% */
+  background-color: rgb(2, 131, 77);
   font-family: "Manrope", sans-serif;
 }
 .title {
   display: flex;
   text-align: center;
   justify-content: space-around;
-  color: white;
+  color: rgb(245, 255, 247);
   font-size: 5rem;
 }
 .subtext {
-  color: rgb(250, 217, 232);
+  color: rgb(208, 246, 219);
   text-align: center;
   font-size: 3rem;
 }
-
+ 
 .default {
   display: flex;
   border-radius: 15px;
   font-size: 3rem;
   width: 35rem;
-  background-color: rgb(217, 141, 247);
+  background-color: rgba(48, 139, 63, 0.64);
   margin-bottom: 3rem;
   margin: 1rem;
   flex-direction: row;
+  align-items: center;
+  flex-wrap: row wrap;
   border-width: 3px;
+  border-color: rgb(188, 246, 203);
   text-align: center;
   justify-content: center;
+  justify-content: space-around;
   justify-content: space-between 1rem;
-  box-shadow: rgb(216, 80, 164);
+  box-shadow: rgb(16, 19, 17);
 }
-
+ 
 .img {
   margin-top: 1rem;
   margin-bottom: 1rem;
   border-radius: 15px;
   block-size: 300px;
+}
+ 
+.link {
+  color: aliceblue;
 }
 
 .child {
@@ -58,3 +66,5 @@ body,
   font-size: 1em;
 }
  */
+ 
+
