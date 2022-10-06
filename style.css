@@ -4,44 +4,56 @@ body,
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-size: 62.5%; /* nomrally 100% is 16 px, want size to be 10 px which is 62.5% */
-  background-color: rgb(247, 161, 211);
+  font-size: 62.5%; /* normally 100% is 16 px, want size to be 10 px which is 62.5% */
+  background-color: rgb(2, 131, 77);
   font-family: "Manrope", sans-serif;
 }
 .title {
   display: flex;
   text-align: center;
   justify-content: space-around;
-  color: white;
+  color: rgb(245, 255, 247);
   font-size: 5rem;
 }
 .subtext {
-  color: rgb(250, 217, 232);
+  color: rgb(208, 246, 219);
   text-align: center;
   font-size: 3rem;
+}
+.caption {
+  margin: 1px;
+  font-size: 2rem;
 }
 
 .default {
   display: flex;
+  block-size: 40rem;
   border-radius: 15px;
   font-size: 3rem;
-  width: 35rem;
-  background-color: rgb(217, 141, 247);
-  margin-bottom: 3rem;
+  width: 37rem;
+  background-color: rgb(22, 90, 62);
+  margin-bottom: 4rem;
   margin: 1rem;
   flex-direction: row;
-  border-width: 3px;
+  align-items: center;
+  flex-wrap: row wrap;
   text-align: center;
   justify-content: center;
+  justify-content: space-around;
   justify-content: space-between 1rem;
-  box-shadow: rgb(216, 80, 164);
+  box-shadow: rgb(16, 19, 17);
 }
 
 .img {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
   border-radius: 15px;
-  block-size: 300px;
+  block-size: 280px;
+  text-align: center;
+}
+
+.link {
+  color: aliceblue;
+  margin: 1px;
+  font-size: 2rem;
 }
 
 .child {
