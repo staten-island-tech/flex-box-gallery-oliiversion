@@ -37,10 +37,15 @@ body,
   block-size: 40rem;
   border-radius: 15px;
   font-size: 3rem;
-  width: 37rem;
-  background-color: rgb(22, 90, 62);
-  margin-bottom: 4rem;
+  width: 35rem;
+  background-color: rgba(48, 139, 63, 0.64);
+  margin-bottom: 3rem;
   margin: 1rem;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: row wrap;
+  border-width: 3px;
+  border-color: rgb(188, 246, 203);
   text-align: center;
   justify-content: center;
   justify-content: space-around;
@@ -58,6 +63,10 @@ body,
   color: aliceblue;
   margin: 1px;
   font-size: 2rem;
+}
+
+.link {
+  color: aliceblue;
 }
 
 .child {
