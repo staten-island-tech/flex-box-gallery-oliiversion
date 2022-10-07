@@ -38,17 +38,13 @@ body,
   border-radius: 15px;
   font-size: 3rem;
   width: 35rem;
-  background-color: rgba(48, 139, 63, 0.64);
+  background-color: rgba(33, 105, 71, 0.64);
   margin-bottom: 3rem;
   margin: 1rem;
-  flex-direction: row;
-  align-items: center;
-  flex-wrap: row wrap;
-  border-width: 3px;
+  border-width: 5px;
   border-color: rgb(188, 246, 203);
   text-align: center;
   justify-content: center;
-  justify-content: space-around;
   justify-content: space-between 1rem;
   box-shadow: rgb(0, 0, 0);
 }
@@ -57,6 +53,7 @@ body,
   border-radius: 15px;
   block-size: 280px;
   text-align: center;
+  background-color: rgba(33, 105, 71, 0.64);
 }
 
 .link {
