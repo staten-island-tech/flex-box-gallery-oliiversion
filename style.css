@@ -8,6 +8,13 @@ body,
   background-color: rgb(2, 131, 77);
   font-family: "Manrope", sans-serif;
 }
+.parent {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .title {
   display: flex;
   text-align: center;
@@ -34,14 +41,11 @@ body,
   background-color: rgb(22, 90, 62);
   margin-bottom: 4rem;
   margin: 1rem;
-  flex-direction: row;
-  align-items: center;
-  flex-wrap: row wrap;
   text-align: center;
   justify-content: center;
   justify-content: space-around;
   justify-content: space-between 1rem;
-  box-shadow: rgb(16, 19, 17);
+  box-shadow: rgb(0, 0, 0);
 }
 
 .img {
