@@ -31,7 +31,11 @@ body {
     font-size: 3rem;
     margin-bottom: 2vh;
 }
- 
+.caption {
+  margin: 1px;
+  font-size: 2rem;
+}
+
 .default {
     border-radius: 15px;
     font-size: 3rem;
@@ -44,7 +48,7 @@ body {
     margin-bottom: 2vh;
     padding-bottom: 2vh;
 }
- 
+
 .img {
     border-radius: 15px;
     width: 90%;
@@ -52,7 +56,13 @@ body {
     margin: auto;
     display: block;
 }
- 
+
+.link {
+  color: aliceblue;
+  margin: 1px;
+  font-size: 2rem;
+}
+
 .link {
     height: min-content;
     color: aliceblue;
