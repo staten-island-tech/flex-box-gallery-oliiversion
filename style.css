@@ -1,70 +1,65 @@
 html,
 body,
 * {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  font-size: 62.5%; /* normally 100% is 16 px, want size to be 10 px which is 62.5% */
-  background-color: rgb(2, 131, 77);
-  font-family: "Manrope", sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+    font-family: "Manrope", sans-serif;
 }
+ 
+body {
+    background-color: rgb(2, 131, 77);
+}
+ 
+.parent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+ 
 .title {
-  display: flex;
-  text-align: center;
-  justify-content: space-around;
-  color: rgb(245, 255, 247);
-  font-size: 5rem;
+    text-align: center;
+    color: rgb(245, 255, 247);
+    font-size: 5rem;
 }
+ 
 .subtext {
-  color: rgb(208, 246, 219);
-  text-align: center;
-  font-size: 3rem;
+    color: rgb(208, 246, 219);
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 2vh;
 }
  
 .default {
-  display: flex;
-  border-radius: 15px;
-  font-size: 3rem;
-  width: 35rem;
-  background-color: rgba(48, 139, 63, 0.64);
-  margin-bottom: 3rem;
-  margin: 1rem;
-  flex-direction: row;
-  align-items: center;
-  flex-wrap: row wrap;
-  border-width: 3px;
-  border-color: rgb(188, 246, 203);
-  text-align: center;
-  justify-content: center;
-  justify-content: space-around;
-  justify-content: space-between 1rem;
-  box-shadow: rgb(16, 19, 17);
+    border-radius: 15px;
+    font-size: 3rem;
+    width: 16em;
+    background-color: rgba(33, 105, 71, 0.64);
+    border-width: 5px;
+    border-color: rgb(188, 246, 203);
+    text-align: center;
+    box-shadow: rgb(0, 0, 0);
+    margin-bottom: 2vh;
+    padding-bottom: 2vh;
 }
  
 .img {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-  border-radius: 15px;
-  block-size: 300px;
+    border-radius: 15px;
+    width: 90%;
+    padding-top: 10px;
+    margin: auto;
+    display: block;
 }
  
 .link {
-  color: aliceblue;
+    height: min-content;
+    color: aliceblue;
+    font-size: 2rem;
 }
-
-.child {
-  font-size: 1rem;
-  width: 28%;
-}
-/* .px-size {
-  font-size: 10px;
-}
-.rem-size {
-  font-size: 1rem;
-}
-.em-size {
-  font-size: 1em;
-}
- */
  
-
+.child {
+    font-size: 1rem;
+    width: 28%;
+}
