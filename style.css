@@ -4,79 +4,86 @@ body,
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-size: 62.5%; /* normally 100% is 16 px, want size to be 10 px which is 62.5% */
-  background-color: rgb(2, 131, 77);
+  font-size: 62.5%;
   font-family: "Manrope", sans-serif;
 }
+
+body {
+  background-color: rgb(2, 131, 77);
+}
+
 .parent {
   display: flex;
-  flex-flow: row wrap;
-  align-items: center;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  flex-direction: row;
 }
 
 .title {
-  display: flex;
   text-align: center;
-  justify-content: space-around;
   color: rgb(245, 255, 247);
   font-size: 5rem;
 }
+
 .subtext {
   color: rgb(208, 246, 219);
   text-align: center;
   font-size: 3rem;
-}
-.caption {
-  margin: 1px;
-  font-size: 2rem;
+  margin-bottom: 2vh;
 }
 
 .default {
-  display: flex;
-  block-size: 40rem;
   border-radius: 15px;
   font-size: 3rem;
-  width: 35rem;
+  width: 16em;
   background-color: rgba(33, 105, 71, 0.64);
-  margin-bottom: 3rem;
-  margin: 1rem;
   border-width: 5px;
   border-color: rgb(188, 246, 203);
   text-align: center;
-  justify-content: center;
-  justify-content: space-between 1rem;
   box-shadow: rgb(0, 0, 0);
+  margin-bottom: 2vh;
+  padding-bottom: 2vh;
 }
 
 .img {
   border-radius: 15px;
-  block-size: 280px;
-  text-align: center;
-  background-color: rgba(33, 105, 71, 0.64);
+  width: 90%;
+  padding-top: 10px;
+  margin: auto;
+  display: block;
+}
+
+.coldnights:hover {
+  animation: bounce;
+  animation-timing-function: ease;
+  animation: bounce 2s;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-30px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.coldnight.img {
+  transition: 0.25s;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
 }
 
 .link {
+  height: min-content;
   color: aliceblue;
-  margin: 1px;
   font-size: 2rem;
-}
-
-.link {
-  color: aliceblue;
 }
 
 .child {
   font-size: 1rem;
   width: 28%;
 }
-/* .px-size {
-  font-size: 10px;
-}
-.rem-size {
-  font-size: 1rem;
-}
-.em-size {
-  font-size: 1em;
-}
- */
