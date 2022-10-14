@@ -40,11 +40,11 @@ body {
     border-radius: 15px;
     font-size: 3rem;
     width: 16em;
-    background-color: rgba(33, 105, 71, 0.64);
+    background-color: rgb(33, 105, 71);
     border-width: 5px;
     border-color: rgb(188, 246, 203);
     text-align: center;
-    box-shadow: rgb(0, 0, 0);
+    box-shadow: 5px 10px rgb(4, 28, 8);
     margin-bottom: 2vh;
     padding-bottom: 2vh;
 }
@@ -73,3 +73,132 @@ body {
     font-size: 1rem;
     width: 28%;
 }
+
+
+  .default1 {
+    border-radius: 15px;
+    box-shadow: 5px 10px rgb(4, 28, 8);
+    font-size: 3rem;
+    width: 16em;
+    background-color: rgb(36, 91, 65);
+    border-width: 5px;
+    border-color: rgb(195, 197, 195);
+    text-align: center;
+    box-shadow: rgb(0, 0, 0);
+    margin-bottom: 2vh;
+    padding-bottom: 2vh;
+    animation-name: colorswitch;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes colorswitch {
+    10%   {background-color: rgba(131, 29, 29, 0.985);}
+    20%   {background-color: rgba(170, 119, 46, 0.985);}
+  30%  {background-color: rgb(175, 177, 90);}
+  40%  {background-color: rgb(90, 177, 97);}
+  50%  {background-color: rgb(12, 115, 60);}
+  60%  {background-color: rgb(17, 89, 109);}
+  70% {background-color: rgb(4, 51, 106);}
+  80% {background-color: rgb(55, 21, 106);}
+  90%  {background-color: rgb(137, 113, 172);}
+  100%  {background-color: rgb(184, 131, 185);}
+}
+
+.default2 {
+    border-radius: 15px;
+    box-shadow: 5px 10px rgb(4, 28, 8);
+    font-size: 3rem;
+    width: 16em;
+    background-color: rgb(33, 105, 71);
+    border-width: 5px;
+    border-color: rgb(188, 246, 203);
+    text-align: center;
+    box-shadow: rgb(0, 0, 0);
+    margin-bottom: 2vh;
+    padding-bottom: 2vh;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    transform-origin: bottom;
+}
+.default2:hover {
+    animation-name: bounce;
+    animation-timing-function: ease;
+}
+@keyframes bounce {
+  0%   { transform: translateY(0); }
+  50%  { transform: translateY(-100px); }
+  100% { transform: translateY(0); }
+}
+
+.img3 {
+    border-radius: 15px;
+    width: 90%;
+    padding-top: 10px;
+    margin: auto;
+    display: block;
+    opacity: 1;
+    transition: 0.3s;
+  }
+  
+  .img3:hover {opacity: 0.5}
+
+  .img4 {
+    border-radius: 15px;
+    width: 90%;
+    padding-top: 10px;
+    margin: auto;
+    display: block;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgb(8, 61, 38);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+  }
+  .img4:hover, .img4:focus, .img4:active {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+
+  /* Push */
+@-webkit-keyframes hvr-push {
+    50% {
+      -webkit-transform: scale(0.8);
+      transform: scale(0.8);
+    }
+    100% {
+      -webkit-transform: scale(1);
+      transform: scale(1);
+    }
+  }
+  @keyframes hvr-push {
+    50% {
+      -webkit-transform: scale(0.8);
+      transform: scale(0.8);
+    }
+    100% {
+      -webkit-transform: scale(1);
+      transform: scale(1);
+    }
+  }
+  
+  .img5 {
+    border-radius: 15px;
+    width: 90%;
+    padding-top: 10px;
+    margin: auto;
+    display: block;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+  }
+  .img5:hover, .img5:focus, .img5:active {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+    transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+  }
