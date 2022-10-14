@@ -53,7 +53,18 @@ body {
   display: block;
 }
 
-.coldnights:hover {
+.coldnights {
+  border-radius: 15px;
+  width: 90%;
+  padding-top: 10px;
+  margin: auto;
+  display: block;
+}
+.form::before {
+  content: "\26C4";
+}
+
+/* .coldnights:hover {
   animation: bounce;
   animation-timing-function: ease;
   animation: bounce 2s;
@@ -75,6 +86,12 @@ body {
   transition: 0.25s;
   animation-duration: 2s;
   animation-iteration-count: infinite;
+} */
+
+.link {
+  height: min-content;
+  color: aliceblue;
+  font-size: 2rem;
 }
 
 .link {
